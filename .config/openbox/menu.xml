@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
 	<menu id="root-menu" label="Openbox 3.5">
-		<item label="Chrome">
+		<item label="Qutebrowser">
 			<action name="Execute">
-				<execute>google-chrome-stable</execute>
+				<execute>qutebrowser --backend webengine</execute>
 			</action>
 		</item>
 		<item label="urxvt">
@@ -11,7 +11,7 @@
 				<execute>urxvt</execute>
 			</action>
 		</item>
-		<item label="Thunar">
+		<item label="files">
 			<action name="Execute">
 				<execute>thunar</execute>
 			</action>
